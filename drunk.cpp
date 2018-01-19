@@ -1,5 +1,4 @@
 //dont let your dreams be dreams
-
 #include<bits/stdc++.h>
 
 using namespace std;
@@ -19,6 +18,7 @@ using namespace std;
 #define sf2(x, y  ) scanf("%d%d",  &x, &y) ;
 
 typedef long long ll ;
+
 //int dx[] = { -1 ,+1, 0 , 0 , -1 , -1  , 1 , 1 };
 //int dy[] = { 0 , 0, +1, -1  , +1 , -1 , 1 , -1 };
 
@@ -26,7 +26,6 @@ typedef long long ll ;
 //int dy[] = { 2 , -2, +1, -1 ,2 , -2 , 1 , -1 };
 
 vector<int >g[M+5 ]  , g2[M +5] ,stk  , add ;
-
 int arr[101] , vis[M+5]  , f  ;
 
 void clr(){
@@ -35,14 +34,12 @@ void clr(){
 	mem(vis , -1 ) ;
 	f =  -1 ;
 	stk.clear() ; add.clear() ;
-
 }
 
 struct _ed{
 	int u , v ;
 	_ed(int a , int b) { u = a; v= b ; } ;
 	_ed(){} ;
-
 };
 
 vector<_ed > edge ;
@@ -101,16 +98,10 @@ void solve(int c )  {
 
 		}
 	}
-
-
-
-
-
-
 }
 
 int main(){
-	freopen("in.txt", "r",stdin );
+//	freopen("in.txt", "r",stdin );
 
 	int i , j , k , cs= 0 , tc ;
 	sf1(tc) ;
@@ -139,10 +130,6 @@ int main(){
 		else printf("Case %d: Yes\n",  ++cs ) ;
 
 	}
-
-
-
-
 	return 0;
 }
 
