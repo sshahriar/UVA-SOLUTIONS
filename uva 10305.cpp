@@ -55,18 +55,13 @@ stk.pb(u) ;
 
 void solve(int n  ) {
 	int i , j, k ;
-    mem(vis , -1 )  ;
-    repi(i , n ) if(vis[i] == -1 )
-        dfs(i ) ;
+ 	
+	repi(i , n ) if(vis[i] == -1 )	  dfs(i ) ;
+	
 	for(i = stk.size() -1 ; i >= 0 ; i--)
-        if( i !=  0 )
-            printf("%d ", stk[i] ) ;
-        else printf("%d", stk[i] ) ;
-
+        	if( i !=  0 )	printf("%d ", stk[i] ) ;
+        	else printf("%d", stk[i] ) ;
         printf("\n") ;
-
-
-
 }
 
 int main(){
@@ -82,13 +77,10 @@ int main(){
             sf2(i ,j ) ;
             g[i].pb(j ) ;
             //g[j].pb(i ) ;
-
-
         }
         solve( n ) ;
 
 	}
-
 	return 0;
 }
 
