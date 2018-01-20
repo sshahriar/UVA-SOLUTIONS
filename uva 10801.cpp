@@ -1,3 +1,4 @@
+// 
 #include<bits/stdc++.h>
 
 using namespace std;
@@ -67,7 +68,7 @@ int dij(int des ){
         int  c = dis[x.t ][x.u ][x.d ] ;
         int u =  x.d ;
 
-        if(x.d ==  des ) return c ;
+    //    if(x.d ==  des ) return c ;
         rep(i , 5) rep(j , g[i][u].size() ){
             int v = g[i][u][j] ;
             int calc = c + cost[i][u][j] ;
@@ -83,28 +84,9 @@ int dij(int des ){
     return INT_MAX ;
 }
 
-
-void call(int  t){
-int i ,j ,k  ;
-    rep(i , t){
-        printf("lift %d ",i );
-        rep(j ,15){
-            if(g[i][j].size()== 0) continue ;
-                printf("%d ->", j );
-            rep(k , g[i][j].size())
-                printf("%d ",cost[i][j][k ] ) ;
-            printf("\n");
-        }
-        printf("\n");
-    }
-
-
-
-}
-
 int  f(){
     int k ;
-   // printf("her \n");
+    // printf("her \n");
     vector<int> v;
     string line ;
         getline(cin ,line );
@@ -115,19 +97,17 @@ int  f(){
 
         }
         k = v.size() ;
-     //   int i ;
         rep(i , k ) temp[i] = v[i] ;
        // rep(i, k ) printf("%d ", temp[i] );
         //printf("input taken  \n");
-
 return k ;
-
 }
 
 void solve(){
 int i ,j , k , u ,t , d  ;
-    clr()  ;
+  
     while(scanf("%d%d",&t ,&d ) ==  2){
+    clr()  ;
     rep(i , t  )scanf("%d",&arr[i] ) ;
 
     getchar();
@@ -154,23 +134,22 @@ int i ,j , k , u ,t , d  ;
     // printf("asci \n");
     //call(t) ;
   // printf("calling diksta\n");
+      
     k = dij(d ) ;
     //printf("\ntaken \n");
-    if(k == INT_MAX) printf("IMPOSSIBLE\n") ;
+    
+      if(k == INT_MAX) printf("IMPOSSIBLE\n") ;
     else printf("%d\n",k);
 
     }
-
-
-
 }
 
 int main(){
   freopen("in.txt", "r",stdin );
 
   int i , j , k , cs= 0 , tc ;
-    clr() ;
-    solve() ;
+  clr() ;
+  solve() ;
 
   return 0;
 }
