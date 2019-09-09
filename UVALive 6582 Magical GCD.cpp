@@ -124,9 +124,7 @@ void solve( ) {
                 v2.pb(v1[i]) ; 
 
         }
-        // cout << st << endl  ; 
-        // cout << v1 << endl  ; 
-        // cout << v2 << endl  ; 
+ 
          st.clear() ;
  
         rep( i , sz(v2) ) {
@@ -135,12 +133,10 @@ void solve( ) {
             st.pb(v2[i] ) ; 
 
         }
-        //dbg( ii ,  ans  ) ;  
+         
     }   
     printf("%lld\n" ,ans ) ;
-    //cout << ans << endl ; 
-    // cerr << "______________________ " <<  endl ; 
-    // dbg_a(prefix) ; 
+    
 }
 
  
@@ -152,8 +148,7 @@ int main() {
 //    ios ::sync_with_stdio(false);  cin.tie(0); cout.tie(0) ;  
 
     int t=1 , c = 0 ;
-   // ll fuck  = 1e12 ;
-    //cin>>t ;  
+ 
     scanf("%d", &t ) ; 
     while(t-- ) {
       //  cout << ++c  << ' ' ; 
