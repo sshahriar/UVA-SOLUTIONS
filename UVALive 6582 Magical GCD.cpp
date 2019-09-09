@@ -1,4 +1,4 @@
-// idea : if we keep adding new element to gcd either 
+// idea : if we keep adding new element our to segment  gcd either 
 //        stays same or decreases  ...
 /*
  
