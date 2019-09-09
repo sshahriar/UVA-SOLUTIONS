@@ -1,16 +1,6 @@
 // idea : if we keep adding new element our to segment  gcd either 
 //        stays same or decreases  ...
-/*
- 
-Today might be the chance to grasp the chance to let your talent bloom.
-May be tomorrow, the day after, or next year...
-May be even when you are 30. I'm not sure if physique has anything to do with it
-but if you think that it will never come, it probably never will.
- 
-- Tooru Oikawa.
- 
-*/
-
+  
 #include <bits/stdc++.h>
 using namespace std; 
   
