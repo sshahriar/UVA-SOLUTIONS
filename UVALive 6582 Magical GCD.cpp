@@ -1,3 +1,5 @@
+// idea : if we keep adding new element to gcd either 
+//        stays same or decreases  ...
 /*
  
 Today might be the chance to grasp the chance to let your talent bloom.
