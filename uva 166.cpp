@@ -21,25 +21,10 @@ idea -
             shop keeper r kase sob typer coin infinite times kore ase ... tar mane hocce
             ai part ta classic coin  change dp diye solve kora jabe ,,,,  
             amar code r proceess part ta dekhte paro,,,  dp_extra te  aita save korsi,,, 
-
-
-    
-
-
-    
-    
-    
-
-
-
-
+           
+            code comment dekhte paro ,,, explain korar try korsi ,, 
 */
-
-
-
-
-
-
+ 
 #include <bits/stdc++.h>
 // #include <ext/pb_ds/assoc_container.hpp>
 // #include <ext/pb_ds/tree_policy.hpp>
@@ -98,8 +83,6 @@ void read_input () {
 }
  
 void  process()  {
-
-
     // shop keeper r kase sob type er coin  infinite times ase ... n
     // ai part ta classic coin change  dp  ... ,
     // mane hocce  x amount of  mone minimim koto coin use kore make kora somvob .., 
